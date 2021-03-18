@@ -1,0 +1,15 @@
+Log file created at: 2021/03/16 23:05:49
+Running on machine: OLEG-PC
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+I0316 23:05:49.382038  2668 c_interface.cc:127] Logging enabled to .
+I0316 23:05:49.383038  2668 c_interface.cc:128] BigARTM version: v0.10.1
+I0316 23:05:49.384038  2668 c_interface.cc:271] Pass MasterModelConfig: topic_name_size=0, score_config_size=1, num_processors=0, pwt_name=pwt, nwt_name=nwt, num_document_passes=0, reuse_theta=no, cache_theta=no, opt_for_avx=yes, disk_cache_path= to ArtmCreateMasterModel
+I0316 23:05:49.418040  2668 c_interface.cc:274] Creating MasterModel (id=1)...
+I0316 23:05:49.420040  2668 collection_parser.cc:771] CollectionParserConfig.num_threads is automatically set to 4
+I0316 23:05:49.612051  2668 c_interface.cc:375] Pass e5c36559-8146-4261-939b-6f967b3a3903 to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0316 23:05:49.612051  2668 c_interface.cc:389] Pass GatherDictionaryArgs: dictionary_target_name=e5c36559-8146-4261-939b-6f967b3a3903, data_path=school_batches, symmetric_cooc_values=0 to void (__cdecl artm::core::MasterComponent::*)(class artm::GatherDictionaryArgs const & __ptr64) __ptr64
+I0316 23:05:49.613051  2668 dictionary_operations.cc:265] Found 5 batches in 'school_batches' folder
+I0316 23:05:49.646054  2668 dictionary_operations.cc:331] Find 16099 unique tokens in 476 items
+I0316 23:05:49.696056  2668 dictionary_operations.cc:611] Dictionary name='e5c36559-8146-4261-939b-6f967b3a3903' contains entries: text:16099; 
+I0316 23:20:41.888070  2668 c_interface.cc:375] Pass e5c36559-8146-4261-939b-6f967b3a3903 to void (__cdecl artm::core::MasterComponent::*)(class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > const & __ptr64) __ptr64
+I0316 23:20:41.946074  2668 c_interface.cc:339] Disposing MasterComponent (id=1)...

@@ -1,0 +1,8 @@
+Log file created at: 2021/03/16 23:21:30
+Running on machine: OLEG-PC
+Log line format: [IWEF]mmdd hh:mm:ss.uuuuuu threadid file:line] msg
+W0316 23:21:30.207834  6560 helpers.cc:231] File already exists: school_batches\aaaaac.batch
+W0316 23:21:30.232836  8436 helpers.cc:231] File already exists: school_batches\aaaaaa.batch
+W0316 23:21:30.254837  6044 helpers.cc:231] File already exists: school_batches\aaaaab.batch
+W0316 23:21:30.277837  6900 helpers.cc:231] File already exists: school_batches\aaaaad.batch
+W0316 23:21:30.283838  6560 helpers.cc:231] File already exists: school_batches\aaaaae.batch
